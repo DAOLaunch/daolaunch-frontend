@@ -1,0 +1,44 @@
+.card-detail-modal {
+  .modal-body {
+    clear: both;
+    min-height: 80px;
+  }
+
+  .Countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    color: #6bd098;
+  }
+  
+  .Countdown-col {
+    display: block;
+    font-size: 75%;
+    text-align: center;
+    width: 23.5%;
+    border-right: 5px solid transparent;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  
+  .Countdown-col-element {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Countdown-col-element strong {
+    font-size: 200%;
+  }
+  
+  .Countdown-col-element span {
+    display: block;
+    color: lightgray;
+  }  
+}

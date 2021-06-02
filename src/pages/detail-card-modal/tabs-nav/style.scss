@@ -1,0 +1,70 @@
+.card-detail-modal {
+  .tab-content {
+    width: 100%;
+    a {
+      color: #51cbce;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .tab-content, .tab-modal {
+    padding: 0 15px;
+  }
+
+  .detail-share a:last-child {
+    margin-right: 0 !important;
+  }
+
+  .share-link {
+    position: relative;
+    display: inline-block;
+    .copied {
+      position: absolute;
+      bottom: 15px;
+      right: -8px;
+      background: #333;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 4px;
+      &::after {
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        border-top: 5px solid #333;
+        border-bottom: 5px solid transparent;
+        content: "";
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 100%;
+        opacity: 1;
+        transition: opacity 150ms ease-in;
+      }
+    }
+  }
+
+  .content {
+    word-break: break-all;
+  }
+}
+
+/*===============  RESPONSIVE  ==================*/
+
+@media (min-width: 320px) {
+  .card-detail-modal {
+    .nav-tabs-wrapper > ul > li {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+    }
+  }
+}
+
+@media (min-width: 991px) {
+  .card-detail-modal {
+    .nav-tabs-wrapper > ul > li {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+}

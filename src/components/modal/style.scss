@@ -1,0 +1,59 @@
+.ant-modal-mask{
+  z-index: 1111;
+}
+.ant-modal-close {
+  display: none;
+}
+.ant-modal-wrap {
+  z-index: 1122;
+  padding: 32px;
+  max-width: 100%;
+  overflow-x: hidden;
+  .ant-modal {
+    padding: 0;
+    max-width: 100%;
+  }
+  .ant-modal-content {
+    border-radius: 10px;
+  }
+
+  .ant-modal-body {
+    padding: 0;
+    // Customer modal body
+    .modal-header {
+      border-bottom: 1px solid #DDDDDD;
+      padding: 20px;
+      text-align: center;
+    }
+    .modal-title {
+      font-size: 1.57em;
+      margin-bottom: 15px;
+    }
+
+    .modal-footer {
+      padding: 12px;
+      border-top: 1px solid #DDDDDD;
+    }
+  }
+}
+
+/*===============  RESPONSIVE  ==================*/
+
+@media (min-width: 320px) {
+  .ant-modal-wrap {
+    padding: 20px 15px;
+
+    .modal-body {
+      position: relative;
+      padding: 20px 10px;
+    }
+  }
+}
+
+@media (min-width: 991px) {
+  .ant-modal-wrap {
+    .modal-body {
+      padding: 20px 50px;
+    }
+  }
+}

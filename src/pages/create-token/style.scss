@@ -1,0 +1,29 @@
+.create-token {
+  .card-title {
+    color: #252422;
+  }
+}
+.modal-create-token {
+  width: 300px; 
+  .btn-success.btn-link {
+    color: #6bd098;
+    background: #fff;
+  }
+}
+
+/*===============  RESPONSIVE  ==================*/
+
+@media (min-width: 320px) {
+  .create-token {
+  }
+}
+
+@media (min-width: 768px) {
+  .create-token {
+  }
+}
+
+@media (min-width: 991px) {
+  .create-token {
+  }
+}
