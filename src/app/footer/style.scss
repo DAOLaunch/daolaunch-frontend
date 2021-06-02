@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+  .left {
+    text-transform: uppercase;
+  }
+  .left, .right {
+    font-size: 0.75rem;
+    color: rgb(44, 44, 44)
+  }
+}
+
+/*===============  RESPONSIVE  ==================*/
+
+@media (min-width: 320px) {
+  footer {
+    min-width: 100%;
+    padding: 24px 15px;
+  }
+}
+
+@media (min-width: 991px) {
+  footer {
+    min-width: auto;
+    padding: 24px 30px 24px 21px;
+    box-sizing: border-box;
+  }
+}

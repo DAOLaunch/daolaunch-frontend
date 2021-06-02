@@ -1,0 +1,27 @@
+.handle-detail-card {
+  .img-container {
+    overflow-y: initial;
+  }
+
+  .field, .field-content, .custom-swap-input {
+    margin: 0;
+    border: none;
+    background-color: #F5F7F9;
+  }
+  .custom-swap-input {
+    height: 28px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+  }
+
+  .currency {
+    color: #66615B;
+    font-weight: bold;
+  }
+
+  .error-message {
+    min-width: 280px;
+  }
+}

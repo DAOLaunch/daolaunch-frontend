@@ -1,0 +1,25 @@
+.field-select {
+  width: 100%;
+  .ant-select-selection {
+    border-color: #8eb175 !important;
+    height: 40px;
+    margin-top: 4px;
+    .ant-select-selection__rendered {
+      height: 38px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &.modern > div {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    background: #f4f7fc;
+    box-shadow: none;
+    &:focus,
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
