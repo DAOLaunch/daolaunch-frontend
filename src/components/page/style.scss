@@ -1,0 +1,29 @@
+/*===============  RESPONSIVE  ==================*/
+
+@media (min-width: 320px) {
+  .page {
+    padding: 0 15px 15px;
+    min-width: 100vw;
+    min-height: calc(100vh - 160px);
+    margin-top: 93px;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 768px) {
+  .page {
+    min-width: auto;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 991px) {
+  .page {
+    padding: 0 30px 30px;
+    min-width: auto;
+    max-width: 100%;
+    min-height: calc(100vh - 160px);
+    margin-top: 93px;
+    box-sizing: border-box;
+  }
+}

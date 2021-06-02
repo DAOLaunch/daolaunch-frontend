@@ -1,0 +1,30 @@
+{
+  "validation": {
+    "required": "このフィールドは必須です。",
+    "integer": "このフィールド は数字で入力してください。",
+    "email": "無効なEmailアドレスです。",
+    "min4": "このフィールドは4文字以上入力してください。",
+    "min6": "このフィールドは6文字以上入力してください。",
+    "max4": "4字以内で入力してください。",
+    "max6": "6字以内で入力してください。",
+    "max10": "10字以内で入力してください。",
+    "max40": "40字以内で入力してください。",
+    "max": "255字以内で入力してください。",
+    "only_space_in_valid": "Only space is invalid",
+    "min": "The minimum characters are invalid (6)",
+    "max255": "The maximum characters are invalid (255)",
+    "matchesPassword": "Password does not match",
+    "sameAsCurrentPassword": "Same as the current password",
+    "matchesEmail": "Email does not match",
+    "matches": "Invalid data type",
+    "number": "Must be number",
+    "isNumberNot0": "Please enter a number greater than 0"
+  },
+  "success-messages": {
+    "REQUEST_SUCCESS": "REQUEST SUCCESS",
+    "LOGOUT_SUCCESS": "LOGOUT SUCCESS",
+    "LOGIN_SUCCESS": "Login successfully"
+  },
+  "error-messages": {
+  }
+}

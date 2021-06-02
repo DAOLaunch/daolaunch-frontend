@@ -1,0 +1,27 @@
+.ant-pagination {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: right;
+  li {
+    border-radius: 50%;
+    a {
+      border-radius: 50% !important;
+    }
+    &.ant-pagination-item-active {
+      color: #fff;
+      background: #90cd34;
+      border-color: #90cd34;
+      > a {
+        color: #fff;
+      }
+    }
+    &:hover:not(.ant-pagination-item-active) {
+      color: #90cd34;
+      border-color: #90cd34;
+      > a {
+        color: #90cd34 !important;
+        border-color: #90cd34 !important;
+      }
+    }
+  }
+}

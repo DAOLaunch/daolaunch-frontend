@@ -1,0 +1,73 @@
+.custom-form {
+  .input-group {
+    &:focus-within {
+      .input-group-text {
+        border: 2px solid #66615b;
+        border-right: 0;
+      }
+    }
+
+    .field {
+      flex: 1;
+      margin-bottom: 0;
+
+      .form-control {
+        border-left: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-right: 1px solid;
+
+        &:focus {
+          border-right: 2px solid #66615b;
+        }
+      }
+    }
+  }
+
+  .currency {
+    margin-bottom: 10px;
+  }
+
+  .error-message {
+    text-align: right;
+    font-size: 12px;
+    color: red;
+    margin-bottom: 5px;
+  }
+
+  .form-group.range.mh-90 {
+    max-height: 90px;
+  }
+
+  .pe-none {
+    pointer-events: none;
+  }
+
+  .no-wrap {
+    .error-message {
+      white-space: nowrap;
+    }
+  }
+
+  .picture.error {
+    border: 1px solid red;
+  }
+  
+  .form-group.no-error {
+    margin-bottom: 0;
+  }
+}
+
+.create-token-sale {
+  .info-text, .title-sale-prediction {
+    color: #252422;
+  }
+
+  .card-title {
+    color: #252422;
+  }
+
+  .balance-custom {
+    flex: 1;
+  }
+}

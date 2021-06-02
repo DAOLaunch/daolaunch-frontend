@@ -1,0 +1,27 @@
+.live {
+  .row-custom {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+}
+
+/*===============  RESPONSIVE  ==================*/
+
+@media (min-width: 320px) {
+  .live {
+  }
+}
+
+@media (min-width: 768px) {
+  .live {
+  }
+}
+
+@media (min-width: 991px) {
+  .live {
+    .col-custom {
+      padding: 0 15px;
+    }
+  }
+}

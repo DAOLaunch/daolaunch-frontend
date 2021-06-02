@@ -1,0 +1,30 @@
+{
+  "validation": {
+    "min": "The minimum characters are invalid (6)",
+    "max255": "The maximum characters are invalid (255)",
+    "matchesPassword": "Password does not match",
+    "sameAsCurrentPassword": "Same as the current password",
+    "matchesEmail": "Email does not match",
+    "matches": "Invalid data type",
+    "number": "Must be number",
+    "isNumberNot0": "Please enter a number greater than 0",
+    "required": "This is required field",
+    "integer": "This field must be number",
+    "email": "Email is invalid",
+    "min4": "This field must be at least 4 characters",
+    "min6": "This field must be at least 6 characters",
+    "max4": "The maximum is 4 characters",
+    "max6": "The maximum is 6 characters",
+    "max10": "The maximum is 10 characters",
+    "max40": "The maximum is 40 characters",
+    "max": "The maximum is 255 characters",
+    "only_space_in_valid": "Only space is invalid"
+  },
+  "success-messages": {
+    "REQUEST_SUCCESS": "REQUEST SUCCESS",
+    "LOGOUT_SUCCESS": "LOGOUT SUCCESS",
+    "LOGIN_SUCCESS": "Login successfully"
+  },
+  "error-messages": {
+  }
+}

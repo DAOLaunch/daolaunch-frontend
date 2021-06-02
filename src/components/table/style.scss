@@ -1,0 +1,38 @@
+.table-custom {
+  thead,
+  thead tr,
+  thead tr th {
+    background: #fff;
+  }
+  thead tr th {
+    padding: 12px 7px;
+    vertical-align: middle;
+    font-size: unset;
+    font-weight: 700;
+    padding-bottom: 0;
+    text-transform: none;
+    border: 0;
+    color: #6c757d;
+    // white-space: nowrap;
+  }
+
+  tbody tr td {
+    color: #212529;
+    border-top: 1px solid #dee2e6;
+    border-bottom: none;
+    padding: 12px 7px;
+    vertical-align: middle;
+  }
+
+  // Background cell hover
+  .ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+  .ant-table-tbody > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+  .ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+  .ant-table-thead > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td {
+    background: none;
+  }
+
+  .ant-table-placeholder svg {
+    height: auto !important;
+  }
+}

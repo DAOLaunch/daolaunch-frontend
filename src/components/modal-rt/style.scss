@@ -1,0 +1,17 @@
+.modal-custom {
+  padding: 0;
+}
+
+.pt-60px {
+  padding-top: 60px;
+}
+
+
+@media (max-width: 576px){
+  .sale_modal.modal-dialog {
+      margin: 1.75rem 0.5rem!important;
+  }
+  .sale_modal.modal-body {
+    padding: 20px 10px;
+  }
+}
